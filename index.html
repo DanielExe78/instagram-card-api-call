@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="#" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <title>Front End Test</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="top header">
+          <img class="profile-pic" src="resources/Erik.svg" alt="active user" />
+
+          <div class="name-location">
+            <p>Erik Dunlop</p>
+            <span>San Francisco, California</span>
+          </div>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div> -->
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="reactions">
+          <div class="like">
+            <img
+              class="icon icon--heart"
+              src="resources/heart-regular.svg"
+              alt="heart"
+            />
+            <img
+              class="icon hidden heart--fill"
+              src="resources/heart.svg"
+              alt="heart filled"
+            />
+          </div>
+
+          <img
+            class="icon icon--comment"
+            src="resources/comment.svg"
+            alt="comment globe"
+          />
+          <img
+            class="icon icon--dm"
+            src="resources/send.svg"
+            alt="paper plane"
+          />
+        </div>
+        <section class="comment-section">
+          <p class="comment">
+            <span>Lucas Credie</span> dolor sit amet, consectetur adipiscing
+            elit. Mi enim ut eu cras ultrices eget et tristique proin. Mi enim
+            ut eu cras ultrices eget et tristique proin.
+          </p>
+
+          <p>
+            <span>Comment</span> consectetur adipiscing elit. Mi enim ut eu cras
+            ultrices eget et
+          </p>
+
+          <div class="comment-add">
+            <ul class="personal-comment"></ul>
+          </div>
+        </section>
+        <div class="comment-inp">
+          <input class="comment-box" type="text" />
+          <button class="post">Post</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
